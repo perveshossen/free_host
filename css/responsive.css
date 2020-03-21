@@ -498,10 +498,15 @@
 
     #about {
         text-align: center;
+        padding: 30px 0;
     }
 
     #about .a-img {
         padding: 15px 0;
+    }
+
+    #about .a-img img {
+        height: 275px;
     }
 
     #about .a-text h2 {
@@ -517,7 +522,7 @@
 
     #about .a-text p {
         font-size: 12px;
-        line-height: 24px;
+        line-height: 22px;
         padding: 0;
     }
 
@@ -528,7 +533,7 @@
 
     #about .a-text a {
         font-size: 12px;
-        padding: 10px 10px;
+        padding: 8px 10px;
         border-radius: 3px;
     }
 
@@ -669,11 +674,57 @@
         margin-bottom: 30px;
     }
 
+    #from_part .help .for-text {
+        padding-top: 50px;
+    }
+
+    #from_part .help h1 {
+        padding-top: 10px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    #from_part .help {
+        margin-top: 0px;
+    }
+
+    #from_part .help h1 span {
+        font-size: 12px;
+    }
+
+    #from_part .help h1 a {
+        font-size: 27px;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+    }
+
+    #from_part .help ul li a {
+        height: 30px;
+        width: 30px;
+        line-height: 28px;
+        font-size: 14px;
+        margin-top: 15px;
+        margin-right: 12px;
+    }
+
+    #from_part input {
+        height: 30px;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+
+    #from_part textarea {
+        height: 80px;
+        font-size: 12px;
+    }
+
     #from_part button {
+        border: 1px solid #6681f2;
         margin-left: 50%;
         transform: translateX(-50%);
         margin-top: 10px;
-        padding: 10px 60px;
+        padding: 6px 40px;
+        font-size: 12px;
     }
 
     #futter {
@@ -1020,9 +1071,9 @@
     }
 
     #from_part .help ul li a {
-        height: 25px;
-        width: 25px;
-        line-height: 23px;
+        height: 20px;
+        width: 20px;
+        line-height: 18px;
         font-size: 12px;
         margin-right: 20px;
     }
