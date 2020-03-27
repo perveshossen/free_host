@@ -1248,7 +1248,7 @@
     }
 
     .navbar-nav .nav-item {
-        background: rgba(0, 0, 0, 0.5);
+        background: #000;
     }
 
     .navbar-nav .nav-link {
@@ -1367,6 +1367,7 @@
 
     #service .one {
         padding: 20px 0;
+        margin: 15px 0;
     }
 
     #service .one i {
@@ -1410,6 +1411,7 @@
 
     #choose .Choose_one {
         padding: 10px 15px;
+        margin: 30px 0;
     }
 
     #choose .Choose_one h5 {
@@ -1540,9 +1542,10 @@
         padding-bottom: 30px;
     }
 
-    #blog_part .blog-detail{
+    #blog_part .blog-detail {
         margin-bottom: 30px;
     }
+
     #blog_part .blog-detail ul li {
         padding: 0 10px;
         color: #666;
