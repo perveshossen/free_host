@@ -275,7 +275,9 @@
         font-size: 20px;
         line-height: 30px;
     }
-
+    #from_part .help h1 a{
+        font-size: 25px;
+    }
     #from_part .help ul li a {
         height: 30px;
         width: 30px;
@@ -366,7 +368,9 @@
         font-size: 10px;
         margin-top: 10px;
     }
-
+    #inner_banner_part{
+        margin-top: 95px;
+    }
 
 }
 
@@ -731,14 +735,7 @@
         text-align: center;
     }
 
-
-
-
-
 }
-
-
-
 
 
 @media(min-width: 576px) and (max-width: 767px) {
@@ -755,9 +752,6 @@
     .heading h2 span {
         font-size: 20px;
     }
-
-
-
 
     #first_nav h3 {
         line-height: 50px;
@@ -887,6 +881,7 @@
 
     #service .one {
         padding: 20px 0;
+        margin: 25px 0;
     }
 
     #service .one i {
@@ -904,7 +899,7 @@
 
     #service .one p {
         font-size: 10px;
-        padding: 0 60px;
+        padding: 0 15px;
     }
 
     #choose {
@@ -930,6 +925,8 @@
 
     #choose .Choose_one {
         padding: 15px 15px;
+        margin-top: 60px;
+        margin-bottom: 25px;
     }
 
     #choose .Choose_one h5 {
@@ -1058,6 +1055,12 @@
         margin-bottom: 30px;
     }
 
+    #blog_part .blog-detail ul li {
+        display: inline-block;
+        padding: 0 6px;
+        color: #666;
+    }
+
     #from_part .help h1 {
         font-size: 22px;
     }
@@ -1071,9 +1074,9 @@
     }
 
     #from_part .help ul li a {
-        height: 20px;
-        width: 20px;
-        line-height: 18px;
+        height: 30px;
+        width: 30px;
+        line-height: 28px;
         font-size: 12px;
         margin-right: 20px;
     }
@@ -1102,6 +1105,10 @@
         padding: 8px 60px;
     }
 
+    #futter .futter_detail .logo h2 {
+        padding-top: 7px;
+        line-height: 50px;
+    }
 
     #inner_first_nav h3 {
         padding-right: 5px;
@@ -1158,6 +1165,10 @@
         border-radius: 2px;
         line-height: 50px;
 
+    }
+
+    #inner_banner_part {
+        margin-top: 69px;
     }
 
     #inner_banner_part .text {
@@ -1220,31 +1231,20 @@
         height: 60px;
     }
 
-    #first_nav h3 {
-        line-height: 40px;
-        padding-right: 0;
-        font-size: 5px;
+    #first_nav {
+        height: 0;
     }
-
-    #first_nav ul li a {
-        padding-left: 5px;
-        line-height: 30px;
-    }
-
-    #first_nav i {
-        padding: 0;
-        font-size: 6px;
-    }
-
-
 
     .navbar img {
         height: 50px;
         width: 100px;
+        margin-top: 8px;
     }
 
     .navbar {
         text-align: center;
+        top: 0;
+        left: 0;
     }
 
     .navbar-nav .nav-item {
@@ -1279,6 +1279,7 @@
     .navbar-toggler-icon {
         color: #6881f2;
         font-size: 20px;
+        padding-top: 7px;
     }
 
 
@@ -1651,7 +1652,7 @@
     }
 
     #inner_banner_part {
-        margin-top: 58px;
+        margin-top: 15px;
     }
 
     #inner_banner_part .text {
@@ -1672,7 +1673,7 @@
     }
 
     .inner.navbar {
-        top: 50px;
+        top: 0;
     }
 
     #inner_first_nav h3 {
