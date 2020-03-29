@@ -69,8 +69,8 @@ $(window).scroll(function () {
     var scroll = $(this).scrollTop();
 
     if (scroll > 500) {
-        $(".top").show();
+        $(".dote").show();
     } else {
-        $(".top").hide();
+        $(".dote").hide();
     }
 });
