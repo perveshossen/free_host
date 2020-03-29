@@ -1,16 +1,16 @@
 var html_body = $('html, body');
-    $('nav a').on('click', function () {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-                html_body.animate({
-                    scrollTop: target.offset().top - 0
-                }, 1500, );
-                return false;
-            }
+$('nav a').on('click', function () {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length) {
+            html_body.animate({
+                scrollTop: target.offset().top - 0
+            }, 1500, );
+            return false;
         }
-    });
+    }
+});
 
 $(window).scroll(function () {
     var scroll = $(this).scrollTop();
@@ -21,7 +21,6 @@ $(window).scroll(function () {
     }
 });
 
-
 $(window).scroll(function () {
     var scroll = $(this).scrollTop();
     if (scroll > 500) {
@@ -30,9 +29,6 @@ $(window).scroll(function () {
         $(".top").hide();
     }
 });
-
-
-
 
 $('.portfolio_img').slick({
     slidesToShow: 3,
@@ -52,10 +48,29 @@ $('.client_slide').slick({
     autoplay: true,
 });
 
-
 jQuery(document).ready(function ($) {
     $('.counter').counterUp({
         delay: 10,
         time: 1000
     });
+});
+
+
+
+
+
+
+
+
+
+//dote part js
+
+$(window).scroll(function () {
+    var scroll = $(this).scrollTop();
+
+    if (scroll > 500) {
+        $(".top").show();
+    } else {
+        $(".top").hide();
+    }
 });
