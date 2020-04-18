@@ -38,6 +38,29 @@ $('.portfolio_img').slick({
     arrows: true,
     nextArrow: '<i class="fa fa-arrow-right right_arrow" aria-hidden="true"></i>',
     prevArrow: '<i class="fa fa-arrow-left left_arrow" aria-hidden="true"></i>',
+    responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                    centerMode: false,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    centerMode: false,
+                }
+                
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+  ]
 });
 
 $('.client_slide').slick({

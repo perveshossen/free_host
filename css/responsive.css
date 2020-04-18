@@ -223,23 +223,18 @@
         font-size: 18px;
     }
 
-    #counter {
-        height: 200px;
-    }
-
-    #counter .count {
+    .count {
         height: 100px;
-        width: 200px;
-        margin-top: 40%;
+        margin-bottom: 20px;
     }
 
     #counter .count .counter {
-        font-size: 34px;
-        font-weight: 700;
-        padding-top: 10px;
+        font-size: 25px;
+        padding-top: 20px;
     }
 
     #counter .count h3 {
+        color: #fff;
         font-size: 15px;
     }
 
@@ -275,9 +270,11 @@
         font-size: 20px;
         line-height: 30px;
     }
-    #from_part .help h1 a{
+
+    #from_part .help h1 a {
         font-size: 25px;
     }
+
     #from_part .help ul li a {
         height: 30px;
         width: 30px;
@@ -368,14 +365,15 @@
         font-size: 10px;
         margin-top: 10px;
     }
-    #inner_banner_part{
+
+    #inner_banner_part {
         margin-top: 95px;
     }
 
 }
 
 
-
+/*====== Medium device =========*/
 
 @media(min-width: 768px) and (max-width: 991px) {
 
@@ -596,60 +594,31 @@
     }
 
     #team_part {
-        padding-top: 30px;
-        padding-bottom: 90px;
+        padding-bottom: 30px;
     }
 
-    #team_part .team-member {
-        margin-bottom: 100px;
-
-    }
-
-    #team_part .team-member .team-detail {
-        margin-bottom: 100px;
-
-    }
-
-    #team_part .team-member .team-img {
-        height: 220px;
-        width: 98%;
-    }
-
-    #team_part .team-member .team-detail h4 {
-        font-size: 18px;
-        line-height: 28px;
+    .team-member {
+        position: relative;
+        margin-bottom: 85px;
     }
 
     #team_part .team-member .team-detail h4 span {
-        font-size: 18px;
-        line-height: 28px;
-        display: block;
+        font-size: 24px;
     }
 
-    #team_part .team-member .team-detail ul li a {
-        font-size: 18px;
-    }
-
-
-
-    #counter {
-        height: 150px;
-    }
-
-    #counter .count {
+    .count {
         height: 100px;
-        width: 150px;
-        margin-top: 40%;
+        margin-bottom: 20px;
     }
 
     #counter .count .counter {
-        font-size: 30px;
-        font-weight: 700;
-        padding-top: 10px;
+        font-size: 25px;
+        padding-top: 20px;
     }
 
     #counter .count h3 {
-        font-size: 12px;
+        color: #fff;
+        font-size: 15px;
     }
 
     #portfolio {
@@ -969,58 +938,31 @@
 
 
     #team_part {
-        padding-top: 30px;
-        padding-bottom: 90px;
+        padding-bottom: 30px;
     }
 
-    #team_part .team-member {
-        margin-bottom: 100px;
-
-    }
-
-    #team_part .team-member .team-detail {
-        margin-bottom: 100px;
-
-    }
-
-    #team_part .team-member .team-img {
-        height: 220px;
-        width: 100%;
-    }
-
-    #team_part .team-member .team-detail h4 {
-        font-size: 18px;
-        line-height: 28px;
+    .team-member {
+        position: relative;
+        margin-bottom: 85px;
     }
 
     #team_part .team-member .team-detail h4 span {
-        font-size: 18px;
-        line-height: 28px;
-        display: block;
+        font-size: 24px;
     }
 
-    #team_part .team-member .team-detail ul li a {
-        font-size: 18px;
-    }
-
-    #counter {
+    .count {
         height: 100px;
-    }
-
-    #counter .count {
-        height: 70px;
-        width: 100px;
-        margin-top: 40%;
+        margin-bottom: 20px;
     }
 
     #counter .count .counter {
-        font-size: 20px;
-        font-weight: 700;
-        padding-top: 10px;
+        font-size: 25px;
+        padding-top: 20px;
     }
 
     #counter .count h3 {
-        font-size: 10px;
+        color: #fff;
+        font-size: 15px;
     }
 
     #portfolio {
@@ -1028,9 +970,7 @@
         padding-bottom: 0px;
     }
 
-    #portfolio .portfolio_img .slid_img {
-        height: 210px;
-    }
+
 
 
     #portfolio .right_arrow {
@@ -1045,6 +985,9 @@
         line-height: 22px;
     }
 
+    .slide_img h3 {
+        padding-top: 80px;
+    }
 
     #blog_part {
         padding-top: 30px;
@@ -1199,9 +1142,9 @@
 }
 
 
+/*====== Xtra samll device=======*/
 
-
-@media(min-width: 320px) and (max-width: 575px) {
+@media (max-width: 575.98px) {
     .top {
         height: 30px;
         width: 30px;
@@ -1453,70 +1396,49 @@
         line-height: 14px;
     }
 
+    .heading h2 {
+        font-size: 26px;
+    }
+
+    .heading h2 span {
+        font-size: 26px;
+    }
+
     #team_part {
-        padding-top: 30px;
-        padding-bottom: 90px;
+        padding-bottom: 30px;
     }
 
-    #team_part .team-member {
-        margin-bottom: 80px;
-
-    }
-
-    #team_part .team-member .team-detail {
-        margin-bottom: 80px;
-
-    }
-
-    #team_part .team-member .team-img {
-        height: 220px;
-        width: 100%;
-    }
-
-    #team_part .team-member .team-detail h4 {
-        font-size: 14px;
-        line-height: 24px;
+    .team-member {
+        position: relative;
+        margin-bottom: 85px;
     }
 
     #team_part .team-member .team-detail h4 span {
-        font-size: 14px;
-        line-height: 24px;
-        display: block;
+        font-size: 24px;
     }
 
-    #team_part .team-member .team-detail ul li a {
-        font-size: 14px;
-    }
-
-
-    #counter {
+    .count {
         height: 100px;
-    }
-
-    #counter .count {
-        height: 50px;
-        width: 60px;
-        margin-top: 80%;
+        margin-bottom: 20px;
     }
 
     #counter .count .counter {
-        font-size: 16px;
-        font-weight: 700;
-        padding-top: 5px;
+        font-size: 25px;
+        padding-top: 20px;
     }
 
     #counter .count h3 {
-        font-size: 5px;
+        color: #fff;
+        font-size: 15px;
     }
-
 
     #portfolio {
         padding-top: 30px;
         padding-bottom: 0px;
     }
 
-    #portfolio .portfolio_img .slid_img {
-        height: 120px;
+    .slide_img h3 {
+        padding-top: 110px;
     }
 
 
